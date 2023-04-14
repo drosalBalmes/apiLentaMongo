@@ -25,6 +25,7 @@ public class AlumneController {
 
         return "llista-alumnes.html";
     }
+
     @GetMapping("/alumnes/nou")
     public String mostrarFormulariProjecte(Model model) {
 
